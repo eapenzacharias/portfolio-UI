@@ -3,7 +3,7 @@ import { MainHeading, SubHeading } from './components/Typography';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-surfaceL">
       <header className="App-header">
         <MainHeading text="Portfolio UI" />
         <SubHeading text="Testing Components" />
