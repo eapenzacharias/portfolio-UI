@@ -1,6 +1,6 @@
 export const MainHeading = ({ text }) => {
   return (
-    <h1>{text}</h1>
+    <h1 className="text-3xl font-bold underline">{text}</h1>
   )
 }
 
