@@ -4,7 +4,7 @@ import { useState } from "react";
 const NavBar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
-    <nav className="navigation">
+    <nav className="navigation drop-shadow-lg bg-surfaceL">
       <a href="/" className="brand-name">
         <img src={require("../assets/images/logo_dark_498x112.png")} alt="viewmy.pro" />
       </a>
@@ -21,18 +21,21 @@ const NavBar = () => {
       </button>
       <div
         className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+          isNavExpanded ? "navigation-menu expanded ease-in-out duration-1000" : "navigation-menu"
         }
       >
-        <ul>
+        <ul className="fadeIn">
           <li>
-            <a href="/home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#works">Works</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
