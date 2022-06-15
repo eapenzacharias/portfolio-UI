@@ -87,11 +87,11 @@
 
  .fadeIn {
   /* opacity: 1; */
-  animation: fade 2s linear;
+  animation: fadeIn 0.5s linear;
 }
 
 
- @keyframes fade {
+ @keyframes fadeIn {
   0% { opacity: 0 }
   100% { opacity: 1 }
 }

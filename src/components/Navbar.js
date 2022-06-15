@@ -1,4 +1,4 @@
-import "../assets/styles/Navbar.scss";
+import "../assets/styles/Navbar.css";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -21,7 +21,7 @@ const NavBar = () => {
       </button>
       <div
         className={
-          isNavExpanded ? "navigation-menu expanded ease-in-out duration-1000" : "navigation-menu"
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
         <ul className="fadeIn">
