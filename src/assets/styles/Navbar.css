@@ -2,8 +2,8 @@
   max-height: 45px;
   width: auto;
 }
+
 .navigation {
-  position: relative;
   display: flex;
   align-items: center;
   height: 70px;
@@ -11,8 +11,6 @@
   padding: 1rem 1rem;
   position: fixed;
   top: 0;
-  width: 100%;
-  /* background-color: #fff; */
 }
 
 .navigation-menu {
@@ -85,14 +83,13 @@
     display: block;
   }
 
- .fadeIn {
-  /* opacity: 1; */
-  animation: fadeIn 0.5s linear;
-}
+  .fadeIn {
+    /* opacity: 1; */
+    animation: fadeIn 0.5s linear;
+  }
 
-
- @keyframes fadeIn {
-  0% { opacity: 0 }
-  100% { opacity: 1 }
-}
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 }

@@ -1,6 +1,6 @@
 import './assets/styles/App.css';
 import NavBar from './components/Navbar';
-import { MainHeading, SubHeading } from './components/Typography';
+import MyText from './components/Typography';
 
 function App() {
   return (
@@ -8,12 +8,12 @@ function App() {
       <NavBar />
       <div className="App bg-surfaceL">
         <header className="App-header">
-          <MainHeading text="Portfolio UI" />
-          <SubHeading text="Testing Components" />
+          <MyText text="Portfolio UI" type="h1" />
+          <MyText text="Testing Components" type="h3" />
         </header>
         <header className="App-header">
-          <MainHeading text="Portfolio UI" />
-          <SubHeading text="Testing Components" />
+          <MyText text="Portfolio UI" type="h1" />
+          <MyText text="Testing Components" type="h3" />
         </header>
       </div>
     </>
